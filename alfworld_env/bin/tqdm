@@ -1,0 +1,6 @@
+#!/fs04/scratch2/mh42/FYP2026S1_3472/jyov0001/2026S1-3472-Scene-Aware-Task-Decomposition/alf-world/alfworld_env/bin/python3.9
+import sys
+from tqdm.cli import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())
